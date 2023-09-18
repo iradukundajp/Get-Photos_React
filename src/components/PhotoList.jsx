@@ -33,7 +33,7 @@ const PhotoList = () => {
         getPhotos();
     }, []);
     return <div className='photo-list'>
-        <h1>Photo List </h1>
+        <h1>Photos List </h1>
         {isLoading && <Loading />}
         {error && <p className='error'>{error}</p>}
         <ul>
