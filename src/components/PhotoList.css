@@ -7,6 +7,7 @@
 }
 
 .photo-list h1 {
+  margin-top: auto;
   font-size: 40px;
   margin-bottom: 16px;
   color: rgb(244, 244, 244);
