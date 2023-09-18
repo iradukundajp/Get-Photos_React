@@ -15,7 +15,7 @@ const PhotoList = () => {
     useEffect(() => {
         const getPhotos = async () => {
             try {
-                const res = await axios.get('https://jsonplaceholder.typicode.com/photos?_limit=100');
+                const res = await axios.get('https://jsonplaceholder.typicode.com/photos?_limit=500');
 
                 if (res.status === 200) {
                     setPhotos(res.data);
