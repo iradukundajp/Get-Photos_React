@@ -1,0 +1,19 @@
+.photo {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.photo p {
+  margin-top: 8px;
+  font-size: 14px;
+}
